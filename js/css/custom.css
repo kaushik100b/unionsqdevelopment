@@ -1,0 +1,20 @@
+/* color mode */
+.color-mode .dropstart .dropdown-toggle:before{
+    display: none;
+}
+.color-mode .dropdown-menu.show {
+    display: block !important;
+}
+
+.color-mode .dropdown-menu {
+    display: none !important;
+    z-index: 9999;
+}
+
+.color-mode .dropdown .btn {
+    border: none;
+}
+
+.color-mode .dropdown-toggle:after {
+    display: none;
+}

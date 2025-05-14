@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="ie=edge" />
+		<title>Mobile-First Responsive Template</title>
+		<style>
+			/* CSS Reset */
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			/* Base Styles - Mobile First */
+			body {
+				font-family: 'Arial', sans-serif;
+				line-height: 1.6;
+				color: #333;
+				padding: 1rem;
+			}
+
+			.container {
+				width: 100%;
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 15px;
+			}
+
+			header {
+				padding: 1rem 0;
+				text-align: center;
+			}
+
+			nav ul {
+				list-style: none;
+				display: flex;
+				flex-direction: column;
+				padding: 1rem 0;
+			}
+
+			nav li {
+				margin-bottom: 0.5rem;
+			}
+
+			nav a {
+				text-decoration: none;
+				color: #333;
+				padding: 0.5rem;
+				display: block;
+				border: 1px solid #ddd;
+				border-radius: 4px;
+				text-align: center;
+			}
+
+			nav a:hover {
+				background-color: #f4f4f4;
+			}
+
+			main {
+				padding: 1rem 0;
+			}
+
+			.card {
+				background: #fff;
+				border-radius: 5px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				padding: 1rem;
+				margin-bottom: 1rem;
+			}
+
+			.btn {
+				display: inline-block;
+				background: #333;
+				color: white;
+				padding: 0.5rem 1rem;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+				text-decoration: none;
+				font-size: 1rem;
+				text-align: center;
+			}
+
+			.btn:hover {
+				opacity: 0.9;
+			}
+
+			footer {
+				text-align: center;
+				padding: 1rem 0;
+				margin-top: 1rem;
+				border-top: 1px solid #ddd;
+			}
+
+			/* Media Queries for larger screens */
+			@media (min-width: 768px) {
+				nav ul {
+					flex-direction: row;
+					justify-content: center;
+				}
+
+				nav li {
+					margin: 0 1rem 0 0;
+				}
+
+				nav a {
+					border: none;
+				}
+
+				.grid {
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
+					gap: 1rem;
+				}
+			}
+
+			@media (min-width: 992px) {
+				.grid {
+					grid-template-columns: repeat(3, 1fr);
+				}
+
+				header {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					text-align: left;
+				}
+
+				nav ul {
+					justify-content: flex-end;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Responsive Template</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="container">
+			<main>
+				<section>
+					<h2>Mobile-First Approach</h2>
+					<p>
+						This template is built using a mobile-first responsive design
+						philosophy.
+					</p>
+
+					<div class="grid">
+						<div class="card">
+							<h3>Card Title 1</h3>
+							<p>
+								This card will stack on mobile and align in a grid on
+								larger screens.
+							</p>
+							<a
+								href="#"
+								class="btn">
+								Learn More
+							</a>
+						</div>
+
+						<div class="card">
+							<h3>Card Title 2</h3>
+							<p>
+								This card will stack on mobile and align in a grid on
+								larger screens.
+							</p>
+							<a
+								href="#"
+								class="btn">
+								Learn More
+							</a>
+						</div>
+
+						<div class="card">
+							<h3>Card Title 3</h3>
+							<p>
+								This card will stack on mobile and align in a grid on
+								larger screens.
+							</p>
+							<a
+								href="#"
+								class="btn">
+								Learn More
+							</a>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer>
+				<p>&copy; 2023 Mobile-First Template. All rights reserved.</p>
+			</footer>
+		</div>
+
+		<!-- Optional JavaScript - uncomment if needed -->
+		<!-- 
+    <script>
+        // Your JavaScript code here
+    </script>
+    -->
+	</body>
+</html>
