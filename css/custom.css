@@ -712,6 +712,10 @@ color: #33561D;
 		font-weight: 400 !important;
 		padding: 10px 30px !important;
 	}
+	.hero-heading-adjust button:hover {
+		background-color: white;
+		color: #7bc34e ;
+	}
 
 	.main-banner-style07 .stratup-image {
 		width: 47%;
