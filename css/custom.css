@@ -70,7 +70,7 @@ color: #569131;
 }
 
 .navbar-nav li.has-sub a:hover {
-    color: #7bc34e !important;
+    color: #33561D !important;
 }
 .navbar-nav li a {
     display: block;
@@ -1497,7 +1497,7 @@ body:not(.home-page) .navbar-nav > li > a {
 
 /* Ensure any hover states still work properly */
 body:not(.home-page) .navbar-nav > li > a:hover {
-	color: #7bc34e !important;
+	color: #33561D !important;
 	opacity: 1 !important;
 }
 
@@ -1509,7 +1509,7 @@ body:not(.home-page) .navbar-nav ul li a {
 /* Keep current/active items green */
 body:not(.home-page) .navbar-nav li.current > a,
 body:not(.home-page) .navbar-nav > li.active > a {
-	color: #7bc34e !important;
+	color: #33561D !important;
 }
 
 .our-process-card-boxes-header {
@@ -1568,7 +1568,7 @@ body.home-page
 /* Active items remain green on white background */
 body.home-page .transparent-header.scrollHeader .navbar-nav > li.active > a,
 body.home-page .transparent-header.scrollHeader .navbar-nav > li.current > a {
-	color: #7bc34e !important;
+	color: #33561D !important;
 	opacity: 1 !important;
 }
 
@@ -1608,13 +1608,13 @@ body.home-page
 /* Active items remain green */
 body.home-page .transparent-header .navbar-nav > li.active > a,
 body.home-page .transparent-header .navbar-nav > li.current > a {
-	color: #7bc34e !important;
+	color: #33561D !important;
 	opacity: 1 !important;
 }
 
 body.home-page .transparent-header.scrollHeader .navbar-nav > li.active > a,
 body.home-page .transparent-header.scrollHeader .navbar-nav > li.current > a {
-	color: #7bc34e !important;
+	color: #33561D !important;
 	opacity: 1 !important;
 }
 
@@ -1648,7 +1648,7 @@ body.home-page
 	.navbar-nav
 	> li
 	> a:hover {
-	color: #7bc34e !important; /* Black when scrolled on home page */
+	color: #33561D !important; /* Black when scrolled on home page */
 }
 body.home-page
 	header.transparent-header.scrollHeader
