@@ -19,6 +19,10 @@
 	display: none;
 }
 
+.text-primary{
+	color: #65a30d !important;
+}
+
 /* Custom gradient background */
 .bg-gradient-green {
 	background: linear-gradient(180deg, #2cc53e 0%, #177421 116.92%) !important;
@@ -66,7 +70,7 @@ color: #569131;
 }
 
 .navbar-nav li.has-sub a:hover {
-    color: #7bc34e;
+    color: #7bc34e !important;
 }
 .navbar-nav li a {
     display: block;
@@ -599,15 +603,16 @@ section.company-partners .client-position {
 	color: #569131 !important;
 	background-color: #f8fdef !important;
 }
-/* .heading{
-	font-family: Arial;
+.heading{
+font-family: Arial;
 font-weight: 700;
 font-size: 40px;
 line-height: 100%;
 letter-spacing: 0%;
+text-align: center;
 vertical-align: middle;
-color: #33561D;
-} */
+
+}
 	
 	.by-the-numbers {
 		padding: 7.5rem 0;
@@ -953,9 +958,13 @@ color: #33561D;
 }
 
 .card-main-header {
-	font-weight: 700 !important;
-	font-size: 24px !important;
-	color: #569131 !important;
+	font-family: Arial;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #569131;
 }
 
 .card-sub-header {
@@ -977,7 +986,7 @@ color: #33561D;
 	display: flex !important;
 	flex-direction: column !important;
 	justify-content: center !important;
-	padding: 16px !important;
+	/* padding: 16px !important; */
 	min-height: 100px !important;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1) !important;
 }
@@ -991,7 +1000,7 @@ color: #33561D;
 }
 
 .card-boxes-paragraph {
-	font-weight: bold !important;
+	/* font-weight: bold !important; */
 	font-size: 14px !important;
 	color: #334155 !important;
 	line-height: 1.3 !important;
@@ -1042,9 +1051,9 @@ color: #33561D;
 	box-shadow: 0px 5px 24px 6px rgba(0, 0, 0, 0.06) !important;
 	border-radius: 8px !important;
 	padding-top: 30.8px !important;
-	padding-right: 32px !important;
+	padding-right: 21px !important;
 	padding-bottom: 48.01px !important;
-	padding-left: 32px !important;
+	padding-left: 21px !important;
 	gap: 16px !important;
 	border-radius: 8px !important;
 }
@@ -1055,11 +1064,14 @@ color: #33561D;
 }
 
 .page-box-paragraph {
-	font-family: Inter !important;
-	font-weight: 500 !important;
-	font-size: 16px !important;
-	line-height: 25.6px !important;
-	color: #334155 !important;
+	font-family: Arial;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0;
+text-align: center;
+vertical-align: middle;
+color: #334155 !important;
 }
 .book-a-discovery-call {
 	gap: 8px !important;
@@ -1190,7 +1202,7 @@ color: #33561D;
 
 .card-paragraph {
 	font-weight: 400 !important;
-	font-size: 16px !important;
+	font-size: 14px !important;
 	color: #334155 !important;
 	margin-bottom: 0 !important;
 }
@@ -1208,7 +1220,7 @@ color: #33561D;
 	display: flex !important;
 	flex-direction: column !important;
 	justify-content: center !important;
-	padding: 16px !important;
+	/* padding: 16px !important; */
 	min-height: 100px !important;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1) !important;
 }
@@ -1221,13 +1233,13 @@ color: #33561D;
 	line-height: 1.2 !important;
 }
 
-.card-boxes-paragraph {
+/* .card-boxes-paragraph {
 	font-weight: bold !important;
 	font-size: 14px !important;
 	color: #334155 !important;
 	line-height: 1.3 !important;
 	margin-bottom: 0 !important;
-}
+} */
 
 .flex-equal {
 	flex: 1 1 0 !important;
@@ -1280,12 +1292,13 @@ color: #33561D;
 
 /* Metric boxes */
 .card-boxes {
-	padding: 16px;
+	/* padding: 16px; */
 	background-color: #f8fafc;
 	border-radius: 8px;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 
 /* Metric box headers */
@@ -1297,12 +1310,12 @@ color: #33561D;
 }
 
 /* Metric box content */
-.card-boxes-paragraph {
+/* .card-boxes-paragraph {
 	font-weight: 700;
 	font-size: 14px;
 	color: #334155;
 	margin-bottom: 0;
-}
+} */
 
 /* Equal width distribution for boxes */
 .flex-equal {
@@ -1739,4 +1752,21 @@ header.transparent-header .navbar-nav > li.current > a:hover {
 body:not(.home-page) .navbar-nav li.nav-button a.btn:hover {
 	color: #fff !important;
 
+}
+
+
+.carousel-bg-1 , .carousel-bg-2, .carousel-bg-3{
+	position: absolute;
+}
+.carousel-bg-1{
+	right: 30px;
+	top :30%;
+}
+.carousel-bg-2{
+	right: 180px;
+	top: 63px;
+}
+.carousel-bg-3{
+	top: 45%;
+	right: 120px;
 }
