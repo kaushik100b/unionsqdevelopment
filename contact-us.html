@@ -80,6 +80,22 @@
 			.fas {
 				font-family: 'Font Awesome 6 Free' !important;
 			}
+			input{
+				border-radius: 6px !important;
+			}
+			.form-label{
+				font-family: Arial;
+font-weight: 400;
+font-size: 16px;
+line-height: 27.2px;
+letter-spacing: 0.5px;
+vertical-align: middle;
+color: #4A4A4A;
+}
+select{
+				color: #4A4A4A !important;
+
+			}
 		</style>
 	</head>
 
@@ -112,8 +128,7 @@
 										type="text"
 										class="search-form_input form-control"
 										name="s"
-										autocomplete="off"
-										placeholder="Type & hit enter..." />
+										autocomplete="off"/>
 									<span class="input-group-addon close-search">
 										<i class="fas fa-times mt-2"></i>
 									</span>
@@ -253,44 +268,39 @@
 					<div class="row g-5">
 						<!-- Contact Form -->
 						<div class="col-lg-7">
-							<h2 class="fw-bold text-success mb-4">Contact Us</h2>
+							<h2 class="fw-bold text-primary mb-4">Contact Us</h2>
 							<form>
 								<div class="row mb-3">
 									<div class="col-md-6">
 										<label class="form-label">First Name</label>
 										<input
 											type="text"
-											class="form-control"
-											placeholder="First name" />
+											class="form-control"/>
 									</div>
 									<div class="col-md-6">
 										<label class="form-label">Last Name</label>
 										<input
 											type="text"
-											class="form-control"
-											placeholder="Last name" />
+											class="form-control"/>
 									</div>
 								</div>
 								<div class="mb-3">
 									<label class="form-label">Email</label>
 									<input
 										type="email"
-										class="form-control"
-										placeholder="you@example.com" />
+										class="form-control"/>
 								</div>
 								<div class="mb-3">
 									<label class="form-label">Company</label>
 									<input
 										type="text"
-										class="form-control"
-										placeholder="Company name" />
+										class="form-control"/>
 								</div>
 								<div class="mb-3">
 									<label class="form-label">Phone Number</label>
 									<input
 										type="tel"
-										class="form-control"
-										placeholder="(123) 456-7890" />
+										class="form-control"/>
 								</div>
 								<div class="mb-3">
 									<label class="form-label">Budget Range</label>
@@ -305,8 +315,7 @@
 									<label class="form-label">Message</label>
 									<textarea
 										class="form-control"
-										rows="5"
-										placeholder="Write your message..."></textarea>
+										rows="5"></textarea>
 								</div>
 								<button
 									type="submit"
@@ -328,13 +337,13 @@
 								</div>
 								<h5
 									class="fw-bold mb-4"
-									style="color: #ffffff !important">
+									style="color: #ffffff !important; font-size: 24px;">
 									Reach Out Directly
 								</h5>
 
 								<!-- Email -->
 								<div class="d-flex align-items-start pb-5">
-									<i class="bi bi-at me-3 fs-5"></i>
+									<i class="bi bi-at me-3" style="font-size: 24px;"></i>
 									<div>
 										<div
 											class="fw-normal mb-1"
@@ -368,7 +377,7 @@
 
 								<!-- Location -->
 								<div class="d-flex align-items-start pb-5">
-									<i class="bi bi-geo-alt-fill me-3 fs-5"></i>
+									<i class="bi bi-geo-alt-fill me-3" style="font-size: 24px;"></i>
 									<div>
 										<div
 											class="fw-normal mb-1"
@@ -403,7 +412,7 @@
 
 								<!-- Response Time -->
 								<div class="d-flex align-items-start">
-									<i class="bi bi-clock me-3 fs-5"></i>
+									<i class="bi bi-clock me-3" style="font-size: 24px;"></i>
 									<div>
 										<div
 											class="fw-normal mb-1"
@@ -440,49 +449,50 @@
 				</div>
 			</section>
 
+
 			<!-- FOOTER
         ================================================== -->
-			<footer class="footer-style4">
-				<div class="container">
-					<div class="row">
-						<div class="col-3">
+			<footer class="footer-style4 mt-4">
+				<div class="container pb-1">
+					<div class="row gap-4 gap-lg-0">
+						<div class="col-12 col-lg-3">
 							<img
 								src="img/logos/logo-union-1.png"
 								alt="..."
 								height="40"
 								width="40"
-								class="mb-2" />
+								class="mb-3" />
 							<p class="text-white">
 								We build what moves you
 								<br />
 								forward, fast.
 							</p>
 						</div>
-						<div class="col-3">
+						<div class="col-12 col-lg-3">
 							<h3 class="footer-heading text-white">Services</h3>
 							<ul class="ps-0">
-								<li>
+								<li class="mb-3">
 									<a
 										class="text-white"
 										href="#fullstack">
 										Full-Stack Development
 									</a>
 								</li>
-								<li>
+								<li class="mb-3">
 									<a
 										class="text-white"
 										href="#backend">
 										Back-end Development
 									</a>
 								</li>
-								<li>
+								<li class="mb-3">
 									<a
 										class="text-white"
 										href="#frontend">
 										Front-end Development
 									</a>
 								</li>
-								<li>
+								<li class="mb-3">
 									<a
 										class="text-white"
 										href="#mobile">
@@ -491,31 +501,31 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-3">
+						<div class="col-12 col-lg-3">
 							<h3 class="footer-heading text-white">Company</h3>
 							<ul class="ps-0">
-								<li>
+								<li class="mb-3">
 									<a
 										class="text-white"
 										href="#case-studies">
 										Case Studies
 									</a>
 								</li>
-								<li>
+								<li class="mb-3">
 									<a
 										class="text-white"
 										href="#our-process">
 										Our Process
 									</a>
 								</li>
-								<li>
+								<li class="mb-3">
 									<a
 										class="text-white"
 										href="#about">
 										About Us
 									</a>
 								</li>
-								<li>
+								<li class="mb-3">
 									<a
 										class="text-white"
 										href="#contact">
@@ -524,17 +534,17 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-3">
+						<div class="col-12 col-lg-3">
 							<h3 class="footer-heading text-white">Get in Touch</h3>
 							<ul class="ps-0">
-								<li>
+								<li class="mb-3">
 									<a
 										class="text-white"
 										href="mailto:hello@unionsqdevs.com">
 										hello@unionsqdevs.com
 									</a>
 								</li>
-								<li class="text-white">+1 (555) 123-4567</li>
+								<li class="text-white mb-3">+1 (555) 123-4567</li>
 								<li class="text-white">
 									33 Irving Place
 									<br />
@@ -545,14 +555,12 @@
 					</div>
 				</div>
 				<div class="footer-bar">
-					<div
-						class="container"
-						style="border-top: 1px solid rgba(255, 255, 255, 0.075)">
-						<div class="row my-4">
+					<div class="container">
+						<div class="row">
 							<div class="col-12 text-center text-white">
-								<p class="mb-0">
+								<p class="my-4">
 									&copy;
-									<span class="current-year text-white">2025</span>
+									2025
 									Union Square Devs. All Rights reserved
 								</p>
 							</div>
