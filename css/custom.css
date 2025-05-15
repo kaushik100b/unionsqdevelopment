@@ -65,6 +65,38 @@ color: #569131;
 	border-color: #7bc34e;
 }
 
+.navbar-nav li.has-sub a:hover {
+    color: #7bc34e;
+}
+.navbar-nav li a {
+    display: block;
+    color: #455439;
+    /* font-size: 15px;
+    font-weight: 500;
+    padding: 9px 37px 9px 27px; */
+}
+    .navbar-nav ul li:before {
+        width: 0;
+        margin-right: 10px;
+        content: '';
+        background: #7bc34e;
+        transition: 0.3s ease-in-out;
+        display: inline-block;
+        height: 2px;
+        vertical-align: middle;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+    }
+a:hover, a:active, a:focus {
+    color: #33561D;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #33561D;
+    text-decoration: none;
+}
+
 /* .badge.rounded-pill.text-bg-success {
 	color: #569131 !important;
 	background-color: #f8fdef !important;
@@ -128,9 +160,14 @@ vertical-align: middle;
 
 .stats-container .stat-number h1 {
 	color: #569131 !important;
-	font-size: 48px !important;
-	font-family: Inter !important;
-	font-weight: 700 !important;
+	font-family: Inter;
+font-weight: 700;
+font-size: 48px;
+line-height: 76.8px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
 }
 
 .stats-container .stat-label {
@@ -245,6 +282,7 @@ vertical-align: middle;
 
 .card-body .row .col {
 	background-color: #f8fafc;
+	border-radius: 8px !important;
 }
 
 .footer-style4 .footer-bar {
@@ -365,7 +403,7 @@ color: #FFFFFF;
 .countup{
 	font-family: Arial;
 font-weight: 700;
-font-size: 50px;
+font-size: 48px;
 line-height: 100%;
 letter-spacing: 0px;
 text-align: center;
@@ -543,14 +581,14 @@ section.company-partners .client-position {
 		margin-top: -155px;
 	} */
 
-	.stratup-image img {
+	/* .stratup-image img {
 		position: absolute;
 		width: 616px;
 		height: 514px;
 		top: 69px;
 		left: 753px;
 
-	} 
+	}  */
 .badge {
     font-size: 16px;
     padding: 5px 20px;
@@ -691,13 +729,13 @@ color: #33561D;
         top: 25%;
     }
 }
-.main-banner-style07 .stratup-image {
-    /* position: absolute; */
+/* .main-banner-style07 .stratup-image {
+    /* position: absolute; 
     width: 48%;
     right: 10px;
     top: 22%;
     z-index: 9;
-}
+} */
 @media screen and (min-width: 1400px) {
 	.navbar-expand-lg .navbar-nav {
 		flex-direction: row;
@@ -751,12 +789,15 @@ color: #33561D;
 	/* font-size: 13px; */
 	transition: all 0.3s ease;
 }
-
-.custom-button-hover:hover {
-	color: var(--bs-btn-hover-color) !important;
-	background-color: var(--bs-btn-hover-bg) !important;
-	border-color: var(--bs-btn-hover-border-color) !important;
+.navbar-nav li.nav-button .btn:hover {
+	
+	color: white !important;
+	background-color: #7bc34e !important;
+	border-color: #7bc34e !important;
 }
+
+/* .custom-button-hover:hover {
+} */
 
 .opacity-1 {
 	opacity: 1 !important;
@@ -1575,6 +1616,7 @@ body.home-page header.transparent-header .navbar-default .navbar-nav > li > a {
 	color: #fff !important; /* White when not scrolled on home page */
 }
 
+
 body.home-page
 	header.transparent-header.scrollHeader
 	.navbar-default
@@ -1582,6 +1624,32 @@ body.home-page
 	> li
 	> a {
 	color: #000 !important; /* Black when scrolled on home page */
+}
+body.home-page
+	header.transparent-header.scrollHeader
+	.navbar-default
+	.navbar-nav
+	> li
+	> a:hover {
+	color: #7bc34e !important; /* Black when scrolled on home page */
+}
+body.home-page
+	header.transparent-header.scrollHeader
+	.navbar-default
+	.navbar-nav
+	> li
+	> .btn {
+	color: #7bc34e !important; /* Black when scrolled on home page */
+}
+body.home-page
+	header.transparent-header.scrollHeader
+	.navbar-default
+	.navbar-nav
+	> li
+	> .btn:hover {
+	    color: white !important;
+    border-color: #569131 !important;
+	background-color: #569131 !important; /* Black when scrolled on home page */
 }
 
 /* 
@@ -1596,11 +1664,28 @@ body.home-page
 header.transparent-header:not(.scrollHeader) .navbar-nav > li > a {
 	color: #fff !important;
 }
+body.home-page .navbar-nav li.nav-button a.btn:hover {
+	color: #7bc34e !important;
+	background-color: white !important;
+	/* border-color: white !important; */
+	opacity: 1 !important;
+}
 
 /* 2. SCROLLED STATE: Black navigation for all pages when scrolled */
 header.transparent-header.scrollHeader .navbar-nav > li > a {
 	color: #000 !important;
 }
+header.transparent-header.scrollHeader .navbar-nav > li > .btn {
+	    color: #7bc34e !important;
+    border-color: #7bc34e !important;
+	background-color: white !important;
+}
+header.transparent-header.scrollHeader .navbar-nav > li > .btn:hover {
+	    color: white !important;
+    border-color: #569131 !important;
+	background-color: #569131 !important;
+}
+
 
 /* 3. ACTIVE ITEMS: Green color for active/current page in both states */
 header.transparent-header .navbar-nav > li.active > a,
@@ -1640,10 +1725,14 @@ header.transparent-header .navbar-nav > li.current > a:hover {
 }
 
 /* 7. BUTTON IN NAV: "Book A Discovery Call" button hover behaviors */
-body.home-page .navbar-nav li.nav-button a.btn:hover {
+/* body.home-page .navbar-nav li.nav-button a.btn:hover {
 	color: #000 !important;
-}
+	background-color: white !important;
+	/* border-color: white !important; 
+	opacity: 1 !important;
+} */
 
 body:not(.home-page) .navbar-nav li.nav-button a.btn:hover {
 	color: #fff !important;
+
 }
