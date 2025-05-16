@@ -995,7 +995,7 @@ color: #569131;
 	font-weight: 700 !important;
 	font-size: 20px !important;
 	color: #65a30d !important;
-	margin-bottom: 8px !important;
+	margin-bottom: 5px !important;
 	line-height: 1.2 !important;
 }
 
@@ -1052,7 +1052,7 @@ color: #569131;
 	border-radius: 8px !important;
 	padding-top: 30.8px !important;
 	padding-right: 21px !important;
-	padding-bottom: 48.01px !important;
+	/* padding-bottom: 48.01px !important; */
 	padding-left: 21px !important;
 	gap: 16px !important;
 	border-radius: 8px !important;
@@ -1064,11 +1064,11 @@ color: #569131;
 }
 
 .page-box-paragraph {
-	font-family: Arial;
-font-weight: 400;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0;
+	font-family: Inter;
+font-weight: 500;
+font-size: 16px;
+line-height: 25.6px;
+letter-spacing: 0%;
 text-align: center;
 vertical-align: middle;
 color: #334155 !important;
@@ -1234,7 +1234,7 @@ height: 48px !important;
 	font-weight: 700 !important;
 	font-size: 20px !important;
 	color: #65a30d !important;
-	margin-bottom: 8px !important;
+	/* margin-bottom: 8px !important; */
 	line-height: 1.2 !important;
 }
 
@@ -1311,7 +1311,7 @@ height: 48px !important;
 	font-weight: 700;
 	font-size: 20px;
 	color: #65a30d;
-	margin-bottom: 8px;
+	/* margin-bottom: 8px; */
 }
 
 /* Metric box content */
@@ -1532,8 +1532,8 @@ body:not(.home-page) .navbar-nav > li.active > a {
 	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 14px !important;
+	line-height: 120% !important;
 	align-items: center;
 	color: #334155;
 }
