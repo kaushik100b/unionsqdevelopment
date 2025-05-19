@@ -115,13 +115,14 @@ letter-spacing: 0 !important;
 vertical-align: middle;
 color: #33561D;
 width: 103%;
+padding: 15px 0px;
 }
 
 .about-section p {
 	font-family: Arial;
 font-weight: 400;
-font-size: 20px;
-line-height: 120%;
+font-size: 18px;
+line-height: 1.5em;
 letter-spacing: 0.5px;
 vertical-align: middle;
 	color: #333333;
@@ -205,7 +206,7 @@ vertical-align: middle;
 }
 
 .by-the-numbers p.text-white {
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .by-the-numbers div h4 .fs-5 {
@@ -295,7 +296,7 @@ vertical-align: middle;
 .footer-style4 p {
 	font-family: Arial;
 font-weight: 400;
-font-size: 18px;
+font-size: 14px;
 line-height: 120%;
 letter-spacing: 0.5px;
 vertical-align: middle;
@@ -407,7 +408,7 @@ color: #FFFFFF;
 .countup{
 	font-family: Arial;
 font-weight: 700;
-font-size: 48px;
+font-size: 50px;
 line-height: 120%;
 letter-spacing: 0px;
 text-align: center;
@@ -633,6 +634,7 @@ vertical-align: middle;
 		font-weight: 700;
 		font-size: 16px;
 		color: #569131;
+		padding: 15px;
 	}
 
 	section.company-partners .client-position {
