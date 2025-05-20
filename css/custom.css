@@ -133,7 +133,7 @@ a:active {
 	font-family: Arial;
 	font-weight: 400;
 	font-size: 18px;
-	line-height: 1.5em;
+	line-height: 26px;
 	letter-spacing: 0.5px;
 	vertical-align: middle;
 	color: #333333;
@@ -168,10 +168,13 @@ a:active {
 
 .technical-edge-section .flex-grow-1 p {
 	color: #606060;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	letter-spacing: 0.5px;
+	font-family: Arial;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0.5px;
+vertical-align: middle;
+
 }
 
 .stats-container .stat-number h1 {
@@ -219,9 +222,9 @@ a:active {
 	color: #334155;
 }
 
-.by-the-numbers p.text-white {
+/* .by-the-numbers p.text-white {
 	font-size: 18px;
-}
+} */
 
 .by-the-numbers div h4 .fs-5 {
 	font-size: 12px !important;
@@ -254,10 +257,11 @@ section.success-stories .card-body div p {
 	font-family: Arial;
 	font-weight: 700;
 	font-size: 24px;
-	line-height: 100%;
+	line-height: 30px;
 	letter-spacing: 0%;
 	vertical-align: middle;
 	color: #569131;
+	margin-bottom: 30px;
 }
 
 .building-breakthroughs h4 {
@@ -472,12 +476,12 @@ footer li {
 
 .counter p {
 	font-family: Arial;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 120%;
-	letter-spacing: 0%;
-	text-align: center;
-	vertical-align: middle;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0.5px;
+text-align: center;
+vertical-align: middle;
 	color: #FFFFFF;
 }
 
@@ -793,8 +797,13 @@ section.company-partners .client-position {
 	.hero-heading-adjust p {
 		width: 120%;
 		color: white !important;
-		font-size: 18px !important;
-		font-weight: 400;
+		font-family: Arial;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0.5px;
+vertical-align: middle;
+
 	}
 
 	.hero-heading-adjust button {
@@ -880,10 +889,11 @@ section.company-partners .client-position {
 .navbar-nav li.nav-button {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .navbar-nav li.nav-button .btn {
-	padding: 8px 20px;
+	padding: 10px 20px;
 	margin-left: 10px;
 	white-space: nowrap;
 	/* font-size: 13px; */
@@ -1063,7 +1073,7 @@ section.company-partners .client-position {
 	line-height: 26px;
 	letter-spacing: 0.5px;
 	vertical-align: middle;
-
+	color: #333333;
 }
 
 .active-nav-item {
@@ -1170,10 +1180,7 @@ section.company-partners .client-position {
 	background: #ffffff !important;
 	box-shadow: 0px 5px 24px 6px rgba(0, 0, 0, 0.06) !important;
 	border-radius: 8px !important;
-	padding-top: 30.8px !important;
-	padding-right: 21px !important;
-	/* padding-bottom: 48.01px !important; */
-	padding-left: 21px !important;
+	padding: 30px;
 	gap: 16px !important;
 	border-radius: 8px !important;
 }
