@@ -134,7 +134,7 @@ a:active {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 26px;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.25px;
 	vertical-align: middle;
 	color: #333333;
 }
@@ -365,6 +365,7 @@ footer li {
 
 .footer-style4 .footer-bar {
 	border-top: none;
+	padding: 0px !important;
 }
 
 .footer-style4 p {
@@ -1170,10 +1171,12 @@ vertical-align: middle;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 26px;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.25px;
 	text-align: center;
 	vertical-align: middle;
 	color: #333333;
+	margin: 0 auto;
+	padding: 10px;
 }
 
 .page-box {
@@ -1508,8 +1511,8 @@ a.btn.btn-outline-light.fw-normal.px-4.py-2:hover {
 }
 
 .footer-style4>.container {
-	padding-top: 90px !important;
-	padding-bottom: 90px !important;
+	padding-top: 60px !important;
+	padding-bottom: 44px !important;
 }
 
 /* Navigation active state overrides */
