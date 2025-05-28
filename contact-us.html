@@ -269,36 +269,37 @@ select{
 						<!-- Contact Form -->
 						<div class="col-lg-7">
 							<h2 class="fw-bold text-primary mb-4">Contact Us</h2>
-							<form>
+							<form class="form" action="https://formspree.io/f/xldbqnrq" method="POST">
+								<input type="hidden" name="FormalMessage" id="formalMessageField">
 								<div class="row mb-3">
 									<div class="col-md-6">
 										<label class="form-label">First Name</label>
-										<input
+										<input name="firstname"
 											type="text"
 											class="form-control"/>
 									</div>
 									<div class="col-md-6">
 										<label class="form-label">Last Name</label>
-										<input
+										<input name="lastname"
 											type="text"
 											class="form-control"/>
 									</div>
 								</div>
 								<div class="mb-3">
 									<label class="form-label">Email</label>
-									<input
+									<input name="email"
 										type="email"
 										class="form-control"/>
 								</div>
 								<div class="mb-3">
 									<label class="form-label">Company</label>
-									<input
+									<input name="company"
 										type="text"
 										class="form-control"/>
 								</div>
 								<div class="mb-3">
 									<label class="form-label">Phone Number</label>
-									<input
+									<input name="phone"
 										type="tel"
 										class="form-control"/>
 								</div>
@@ -313,7 +314,7 @@ select{
 								</div> -->
 								<div class="mb-4">
 									<label class="form-label">Message</label>
-									<textarea
+									<textarea name="message"
 										class="form-control"
 										rows="5"></textarea>
 								</div>
@@ -581,6 +582,38 @@ select{
 		</a>
 
 		<!-- all js include start -->
+
+		<script>
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", function (e) {
+    const firstname = form.querySelector("input[name='firstname']").value;
+    const lastname = form.querySelector("input[name='lastname']").value;
+    const email = form.querySelector("input[name='email']").value;
+    const company = form.querySelector("input[name='company']").value;
+    const phone = form.querySelector("input[name='phone']").value;
+    const message = form.querySelector("textarea[name='message']").value;
+
+    const formalMessage = `
+Dear Admin,
+
+You have received a new inquiry from the contact form.
+
+Name: ${firstname} ${lastname}
+Email: ${email}
+Company: ${company}
+Phone Number: ${phone}
+
+Message:
+${message}
+
+Regards,  
+Your Website Contact Form
+    `.trim();
+
+    form.querySelector("#formalMessageField").value = formalMessage;
+  });
+</script>
 
 		<!-- jquery -->
 		<script src="js/jquery.min.js"></script>
