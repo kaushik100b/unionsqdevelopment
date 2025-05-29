@@ -96,6 +96,16 @@ select{
 				color: #4A4A4A !important;
 
 			}
+			.icon-wrapper {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #ffffff;
+}
+
 		</style>
 	</head>
 
@@ -239,7 +249,7 @@ select{
 						<!-- Circles in the Background -->
 						<div class="circle-background"></div>
 						<div class="d-flex align-items-center gap-3 mt-7">
-							<span class="fw-bold text-white">Home</span>
+							<a href="./index.html"><span class="fw-bold text-white">Home</span></a>
 							<span
 								class="d-inline-block bg-white rounded-circle"
 								style="width: 10px; height: 10px"></span>
@@ -327,125 +337,71 @@ select{
 						</div>
 
 						<!-- Contact Info Box -->
-						<div class="col-lg-5">
-							<div
-								class="text-white p-4 p-md-5 rounded-4 h-100"
-								style="background-color: #7bc34e; position: relative">
-								<div class="contact-us-circles">
-									<div class="contact-us-big-circle">
-										<div class="contact-us-small-circle">`</div>
-									</div>
-								</div>
-								<h5
-									class="fw-bold mb-4"
-									style="color: #ffffff !important; font-size: 24px;">
-									Reach Out Directly
-								</h5>
+<!-- Contact Info Box -->
+<div class="col-lg-5">
+  <div class="text-white p-4 p-md-5 rounded-4 h-100" style="background-color: #7bc34e;">
+    <h5 class="fw-bold mb-4" style="color: #ffffff; font-size: 24px;">Reach Out Directly</h5>
 
-								<!-- Email -->
-								<div class="d-flex align-items-start pb-5">
-									<i class="bi bi-at me-3" style="font-size: 24px;"></i>
-									<div>
-										<div
-											class="fw-normal mb-1"
-											style="
-												font-family: 'Arial' !important;
-												font-style: normal !important;
-												font-weight: 400 !important;
-												font-size: 20px !important;
-												line-height: 23px !important;
-												letter-spacing: 0.5px !important;
-												color: #ffffff;
-												opacity: 0.9;
-											">
-											Email
-										</div>
-										<a
-											href="mailto:hello@unionsqdevs.com"
-											class="text-white text-decoration-underline"
-											style="
-												font-family: 'Arial';
-												font-style: normal;
-												font-weight: 400;
-												font-size: 16px;
-												line-height: 18px;
-												color: #ffffff;
-											">
-											hello@unionsqdevs.com
-										</a>
-									</div>
-								</div>
+    <!-- Email -->
+    <div class="pb-5">
+      <div class="d-flex align-items-center mb-1">
+        <div class="icon-wrapper me-2">
+          <i class="bi bi-at" style="font-size: 26px;"></i>
+        </div>
+        <div class="fw-normal" style="font-size: 20px; color: #ffffff; opacity: 0.9;">Email</div>
+      </div>
+      <div class="d-flex align-items-center mb-1">
+        <div class="icon-wrapper me-2">
+          <!-- <i class="bi bi-at" style="font-size: 25px;"></i> -->
+        </div>
+        <a href="mailto:hello@unionsqdevs.com" class="text-white text-decoration-underline" style="font-size: 16px;">
+        hello@unionsqdevs.com
+      </a>
+      </div>
+      
+    </div>
 
-								<!-- Location -->
-								<div class="d-flex align-items-start pb-5">
-									<i class="bi bi-geo-alt-fill me-3" style="font-size: 24px;"></i>
-									<div>
-										<div
-											class="fw-normal mb-1"
-											style="
-												font-family: 'Arial' !important;
-												font-style: normal !important;
-												font-weight: 400 !important;
-												font-size: 20px !important;
-												line-height: 23px !important;
-												letter-spacing: 0.5px !important;
-												color: #ffffff;
-												opacity: 0.9;
-											">
-											Location
-										</div>
-										<p
-											class="mb-0"
-											style="
-												font-family: 'Arial';
-												font-style: normal;
-												font-weight: 400;
-												font-size: 16px;
-												line-height: 20px;
-												color: #ffffff;
-											">
-											33 Irving Pl
-											<br />
-											New York, NY 10003, USA
-										</p>
-									</div>
-								</div>
+    <!-- Location -->
+    <div class="pb-5">
+      <div class="d-flex align-items-center mb-1">
+        <div class="icon-wrapper me-2">
+          <i class="bi bi-geo-alt-fill" style="font-size: 23px;"></i>
+        </div>
+        <div class="fw-normal" style="font-size: 20px; color: #ffffff; opacity: 0.9;">Location</div>
+      </div>
+      <div class="d-flex align-items-center mb-1">
+        <div class="icon-wrapper me-2">
+          <!-- <i class="bi bi-geo-alt-fill"></i> -->
+        </div>
+		<p class="mb-0" style="font-size: 16px; color: #ffffff;">
+        33 Irving Pl<br />New York, NY 10003, USA
+      </p>
+      </div>
+      
+    </div>
 
-								<!-- Response Time -->
-								<div class="d-flex align-items-start">
-									<i class="bi bi-clock me-3" style="font-size: 24px;"></i>
-									<div>
-										<div
-											class="fw-normal mb-1"
-											style="
-												font-family: 'Arial' !important;
-												font-style: normal !important;
-												font-weight: 400 !important;
-												font-size: 20px !important;
-												line-height: 23px !important;
-												letter-spacing: 0.5px !important;
-												color: #ffffff;
-												opacity: 0.9;
-											">
-											Response Time
-										</div>
-										<p
-											class="mb-0"
-											style="
-												font-family: 'Arial';
-												font-style: normal;
-												font-weight: 400;
-												font-size: 16px;
-												line-height: 20px;
-												color: #ffffff;
-											">
-											We typically respond within 24 hours during
-											business days
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
+    <!-- Response Time -->
+    <div>
+      <div class="d-flex align-items-center mb-1">
+        <div class="icon-wrapper me-2">
+          <i class="bi bi-clock"></i>
+        </div>
+        <div class="fw-normal" style="font-size: 20px; color: #ffffff; opacity: 0.9;">Response Time</div>
+      </div>
+      <div class="d-flex align-items-center mb-1">
+        <div class="icon-wrapper me-2">
+          <!-- <i class="bi bi-clock"></i> -->
+        </div>
+		<p class="mb-0" style="font-size: 16px; color: #ffffff;">
+          We typically respond within 24 <br> hours during business days
+      </p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
 					</div>
 				</div>
 			</section>
@@ -559,7 +515,7 @@ select{
 					<div class="container">
 						<div class="row">
 							<div class="col-12 text-center text-white">
-								<p class="my-4 mt-5">
+								<p class="my-4">
 									&copy;
 									2025
 									Union Square Devs. All Rights reserved
