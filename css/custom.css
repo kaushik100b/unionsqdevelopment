@@ -98,6 +98,9 @@ footer {
 	top: 20px;
 	left: 25px;
 }
+.navbar > ul > li.has-sub > a:after {
+    top: 28px !important;
+}
 
 a:hover,
 a:active,
@@ -219,7 +222,7 @@ vertical-align: middle;
 	line-height: 20px;
 	letter-spacing: 0%;
 	vertical-align: middle;
-	color: #334155;
+	color: #606060;
 }
 
 /* .by-the-numbers p.text-white {
@@ -1074,7 +1077,7 @@ vertical-align: middle;
 	line-height: 26px;
 	letter-spacing: 0.5px;
 	vertical-align: middle;
-	color: #333333;
+	color: #606060;
 }
 
 .active-nav-item {
@@ -1174,7 +1177,7 @@ vertical-align: middle;
 	letter-spacing: 0.25px;
 	text-align: center;
 	vertical-align: middle;
-	color: #333333;
+	color: #606060;
 	margin: 0 auto;
 	padding: 10px;
 }
