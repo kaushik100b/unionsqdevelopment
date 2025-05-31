@@ -686,16 +686,7 @@ section.company-partners .client-position {
 		left: 753px;
 
 	}  */
-	.badge {
-		font-size: 16px;
-		padding: 5px 20px;
-		line-height: 1.6;
-		font-weight: 700;
-		border-radius: 8px;
-		/* background-color: #B5E45E1A; */
-		color: #569131 !important;
-		background-color: #f8fdef !important;
-	}
+	
 
 	.heading {
 		font-family: Arial;
@@ -751,6 +742,17 @@ section.company-partners .client-position {
 	} 
 		*/
 }
+
+.badge {
+		font-size: 16px;
+		padding: 5px 20px;
+		line-height: 1.6;
+		font-weight: 700;
+		border-radius: 8px;
+		/* background-color: #B5E45E1A; */
+		color: #569131 !important;
+		background-color: #f8fdef !important;
+	}
 
 @media (min-width: 1200px) {
 	/* .transparent-header nav ul li a,
@@ -1228,7 +1230,7 @@ vertical-align: middle;
 	color: #ffffff !important;
 }
 
-.tech-stack-logos img {
+.tech-stack img {
 	height: 100px !important;
 	width: 100px !important;
 }
@@ -1236,7 +1238,7 @@ vertical-align: middle;
 .tech-stack-logos-name {
 	font-weight: bold !important;
 	font-size: 18px !important;
-	color: #333333 !important;
+	color: #606060 !important;
 }
 
 .cta-container button {
@@ -1291,13 +1293,13 @@ vertical-align: middle;
 		width: 100% !important;
 	}
 
-	.tech-stack-logos {
+	.tech-stack img {
 		width: 100%;
 	}
 }
 
 @media (min-width: 768px) {
-	.tech-stack-logos {
+	.tech-stack img {
 		width: 50%;
 	}
 }
@@ -1565,7 +1567,7 @@ a.btn.btn-outline-light.fw-normal.px-4.py-2:hover {
 
 /* Navigation text color - white for ALL pages on first load (not scrolled) */
 header.transparent-header .navbar-default .navbar-nav>li>a {
-	color: #fff !important;
+	color: #fff ;
 	/* White when not scrolled on all pages */
 }
 
@@ -1604,7 +1606,7 @@ body:not(.home-page) .transparent-header .navbar-nav>li>a {
 
 /* Keep white text for index.html */
 body.home-page .transparent-header .navbar-nav>li>a {
-	color: #fff !important;
+	color: #fff ;
 }
 
 /* Apply black color on scroll header for all pages */
@@ -1714,7 +1716,7 @@ body.home-page .transparent-header.scrollHeader .navbar-nav>li.current>a {
 
 /* Home page navigation - white text when not scrolled (default state) */
 body.home-page .transparent-header .navbar-nav>li>a {
-	color: #fff !important;
+	color: #fff ;
 }
 
 /* Home page navigation - black text only when scrolled */
@@ -1769,6 +1771,25 @@ body.home-page header.transparent-header .navbar-default .navbar-nav>li>a {
 body.home-page header.transparent-header.scrollHeader .navbar-default .navbar-nav>li>a {
 	color: #000 !important;
 	/* Black when scrolled on home page */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 990px) {
+	body.home-page header.transparent-header .navbar-default .navbar-nav > li > a,
+	body.home-page header.transparent-header.scrollHeader .navbar-default .navbar-nav > li > a {
+		color: #000 ; /* Always black on mobile */
+	}
+	.navbar-nav li.nav-button a {
+	padding: 10px 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #7bc34e !important;
+	white-space: nowrap;
+	color: #7bc34e !important ;
+	/* font-size: 13px; */
+	transition: all 0.3s ease;
+}
 }
 
 body.home-page header.transparent-header.scrollHeader .navbar-default .navbar-nav>li>a:hover {
@@ -1944,4 +1965,108 @@ body:not(.home-page) .navbar-nav li.nav-button a.btn:hover {
 .scroll-to-top1:visited {
 	color: #1d184a;
 	text-decoration: none;
+}
+
+
+/* //mobile  */
+@media screen and (max-width: 991px) {
+    .navbar-toggler.menu-opened:after, .navbar-toggler.menu-opened:before {
+        background: #33561D !important;
+    }
+	.client-name{
+		color: #569131 !important;
+	}
+}
+
+@media (max-width: 767px) {
+  .row-scroll {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .row-scroll .col-4 {
+    flex: 0 0 auto;
+    width: 80%;
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+	.building-breakthroughs h4 {
+		font-size: 16px;
+		line-height: 120%;
+	}
+
+	.building-breakthroughs p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+	.boxes-headers {
+		font-size: 15px;
+		line-height: 110%;
+		margin-bottom: 6px;
+	}
+
+	.boxes-paragraph {
+		font-size: 11px;
+		line-height: 14px;
+	}
+}
+@media (max-width: 768px) {
+	.page-paragraph {
+		font-size: 15px;
+		line-height: 22px;
+		padding: 8px;
+	}
+}
+
+@media (max-width: 768px) {
+	.heading {
+		font-size: 22px;
+	}
+
+	 .page-headers-h1 {
+    font-size: 20px;
+    line-height: 45px;
+    padding: 0 10px;
+  }
+
+  .page-paragraph {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 8px 10px;
+  }
+	.badge{
+		color: #569131;
+	}
+	.tech-stack-logos-name {
+    font-size: 14px;
+  }
+}
+
+  @media (min-width: 1200px) {
+    .flex-5-card {
+      flex: 1 1 18%;
+      max-width: 18%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    .flex-5-card {
+      flex: 1 1 45%;
+      max-width: 45%;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .flex-5-card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  .blog-card01 .card-body {
+    padding: 0rem;
+	min-height: 180px;
 }
