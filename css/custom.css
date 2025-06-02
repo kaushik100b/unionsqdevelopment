@@ -150,7 +150,7 @@ a:active {
 	color: #569131;
 	font-weight: 700;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .font-family-arial {
@@ -200,7 +200,7 @@ vertical-align: middle;
 	color: #606060;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 18px;
 	letter-spacing: 0.5px;
 }
 
@@ -572,7 +572,7 @@ section {
 }
 
 .logo-btn img {
-	max-height: 30px;
+	max-height: 40px;
 	width: auto;
 	height: auto;
 }
@@ -717,7 +717,7 @@ section.company-partners .client-position {
 	section.company-partners .client-name {
 		font-family: Arial, Helvetica, sans-serif;
 		font-weight: 700;
-		font-size: 16px;
+		font-size: 18px;
 		color: #569131;
 		padding: 15px;
 	}
@@ -725,7 +725,7 @@ section.company-partners .client-position {
 	section.company-partners .client-position {
 		font-family: Arial, Helvetica, sans-serif;
 		font-weight: 400;
-		font-size: 16px;
+		font-size: 18px;
 		color: #33561D;
 		line-height: 0.4;
 	}
@@ -1674,7 +1674,7 @@ body:not(.home-page) .navbar-nav>li.active>a {
 	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px !important;
+	font-size: 16px !important;
 	line-height: 120% !important;
 	align-items: center;
 	color: #606060;
